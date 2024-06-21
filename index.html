@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page - Test</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body id="page">
+    <header class="p-2">
+        <div class="container mx-auto flex items-center justify-between">
+            <div class="logo text-2xl titulo">
+            <a href="#page" target="_blank"><i class="fas fa-tv logo-icon mr-2"></i>Tienda Tutto</a>
+            </div>
+        </div>
+    </header>
+    <!-- Primera sección -->
+    <section class="py-">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="text md:w-1/2 text-center md:text-left px-4">
+                <h1 class="text-4xl font-bold mb-4 titulo">Auriculares</h1>
+                <h2 class="text-2xl text-gray-600 mb-6 titulo">Westmire A56</h2>
+                <div class="buttons space-x-4">
+                    <button class="bg-blue-500 titulo py-2 px-6 rounded hover:bg-blue-600 transition duration-300">Comprar ahora</button>
+                    <button class="bg-gray-500 titulo py-2 px-6 rounded hover:bg-gray-600 transition duration-300">Comprar todo</button>
+                </div>
+            </div>
+            <div class="image md:w-1/2 px-4 mt-8 md:mt-0 text-center">
+                <img src="assets/auriculares.png" alt="Auriculares Westmire A56" class="img-animation">
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Segunda sección -->
+    <section class="py-10">
+        <div class="container mx-auto flex flex-col md:flex-row items-center ">
+            <div class="text md:w-1/2 mb-8 md:mb-0 text-center md:text-left px-4">
+                <h1 class="titulos tecnologia-nueva">Tecnología nueva</h1>
+                <p class="text-gray-700 leading-relaxed">¡Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam officia eius repellat 
+                    facere numquam sed amet eligendi? Cupiditate, quisquam? Sapiente autem suscipit
+                    fuga delectus odio aperiam officia obcaecati culpa veniam!</p>
+            </div>
+            <div class="image md:w-1/2 px-4">
+                <img src="assets/img 2.webp" alt="Tecnología nueva" class="rounded shadow-lg">
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Tercera sección echa con tailwind--> 
+    <section class="categories-section py-12">
+        <div class="container mx-auto">
+            <h1 class=" mb-10 titulos">Comprar por categoría</h1>
+            <div class="categories grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="category bg-white p-6 rounded shadow-lg flex flex-col items-center transition-transform duration-300 transform hover:scale-105">
+                    <img src="assets/img 3.webp" alt="Teléfonos y accesorios" class="rounded mb-4">
+                    <h3 class="text-xl font-miFuente mb-2 titulos">Teléfonos y accesorios</h3>
+                    <p class="text-gray-600 text-center p-10">Clase alta, teléfonos de alta calidad a precios asequibles</p>
+                </div>
+                <div class="category bg-white p-6 rounded shadow-lg flex flex-col items-center transition-transform duration-300 transform hover:scale-105">
+                    <img src="assets/img 4.webp" alt="Equipamiento informático" class="rounded mb-4">
+                    <h3 class="text-x  mb-2 titulos">Equipamiento informático</h3>
+                    <p class="text-gray-600 text-center p-4">Todas tus necesidades de escritorio u ordenador están disponibles</p>
+                </div>
+                <div class="category bg-white p-6 rounded shadow-lg flex flex-col items-center transition-transform duration-300 transform hover:scale-105">
+                    <img src="assets/img 5.webp" alt="Artículos variados" class="rounded mb-4">
+                    <h3 class="text-xl font-miFuente mb-2 titulos">Artículos variados</h3>
+                    <p class="text-gray-600 text-center p-1">Tenemos más cosas para satisfacer tus necesidades técnicas</p>
+                </div>
+            </div>
+            <div class="buttons mt-8">
+                <button class="text-gray p-1 py-2 rounded">Comprar todo</button>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Cuarta sección -->
+    <section class="bg-gray-100 py-12 rounded-xl">
+        <div class="container mx-auto flex flex-col md:flex-row items-center ">
+            <div class="support-content md:w-1/2 text-center md:text-left px-4">
+                <h1 class="titulos mb-4">Soporte experto</h1>
+                <p class="text-gray-600">¿Batería del teléfono defectuosa? ¿Ordenador portátil lento? Contamos con expertos en tecnología que pueden ayudarte. ¡Visita nuestras tiendas!</p>
+                <h3 class="titulos mt-8">Nuestras ubicaciones</h3>
+                <p class="text-gray-600">Fake Street, 640, Illinois, Louisiana<br>912 455 789</p>
+            </div>
+            <div class="support-img md:w-1/2 px-4 mt-8 md:mt-0">
+                <img src="assets/img 6.webp" alt="Tecnología nueva" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Quinta sección -->
+    <div class="bg-black p-8">
+        <form class="max-w-lg mx-auto">
+            <h2 class="text-white text-2xl mb-4">Contacto</h2>
+            <p class="text-gray-400 mb-8">Dejanos un mensaje y enterate como contratar un servicio de landing page
+                para que tu producto luzca igual a este
+            </p>
+            <div class="mb-4">
+                <label for="name" class="block text-white mb-2">Nombre y Apellido</label>
+                <input type="text" id="name" class="w-full p-2 text-black" placeholder="Tu nombre completo" required>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-white mb-2">E-mail</label>
+                <input type="email" id="email" class="w-full p-2 text-black" placeholder="Tu correo electrónico" required>
+            </div>
+            <div class="mb-4">
+                <label for="phone" class="block text-white mb-2">Teléfono</label>
+                <input type="tel" id="phone" class="w-full p-2 text-black" placeholder="Tu número de teléfono" required>
+            </div>
+            <div class="mb-4">
+                <label for="location" class="block text-white mb-2">Localidad</label>
+                <input type="text" id="location" class="w-full p-2 text-black" placeholder="Tu localidad" required>
+            </div>
+            <div class="mb-8">
+                <label for="message" class="block text-white mb-2">Mensaje</label>
+                <textarea id="message" class="w-full p-2 text-black" placeholder="Tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="bg-white text-black py-2 px-6 rounded-full hover:bg-gray-500 hover:text-white transition duration-300">Enviar</button>
+        </form>
+    </div>
+    
+    <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+        <div class="flex items-center space-x-4">
+            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-gray-300 hover:text-white"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="text-center md:text-left mt-4 md:mt-0">
+            <p>Fake Street, 640, Illinois, Louisiana, 912 455 789</p>
+            <p>Email: infofake@tuttotienda.com</p>
+        </div>
+        <div class="flex items-center space-x-4">
+            <a href="#" class="text-gray-300 hover:text-white">FAQ</a>
+            <a href="#" class="text-gray-300 hover:text-white">Términos y condiciones</a>
+            <a href="#" class="text-gray-300 hover:text-white">Política de privacidad</a>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
